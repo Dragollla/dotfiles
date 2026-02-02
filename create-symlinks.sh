@@ -3,7 +3,7 @@
 cd -- "$(dirname "$0")"
 DIR=$(pwd -P)
 
-HOME_FILES=(tmux.conf aerospace.toml zprofile zshrc)
+HOME_FILES=(tmux.conf aerospace.toml zprofile zshrc ideavimrc)
 HOME_CONFIG_DIRS=(nvim kitty)
 
 for file in $HOME_FILES; do
