@@ -44,6 +44,10 @@ nmap gri <Action>(GotoImplementation)
 nmap grr <Action>(ShowUsages)
 nmap grn <Action>(RenameElement)
 nmap gro <Action>(OptimizeImports)
+nmap gra <Action>(ShowIntentionActions)
+
+nmap ]d <Action>(ReSharperGotoNextErrorInSolution)
+nmap [d <Action>(ReSharperGotoPrevErrorInSolution)
 
 nmap gb <Action>(Git.Branches)
 
